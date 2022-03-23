@@ -6,5 +6,5 @@ public void setup()
   bob.myY = 30;
   mary.myX = 70;
   mary.myY = 70;
-  System.out.println("Distance between bob and mary is " + dist(bob.myX,bob.myY,mary.myX,mary.myY));
+  System.out.println("Distance between bob and mary is " + dist(bob.getX(),bob.getY(),mary.getX(),mary.getY()));
 }
